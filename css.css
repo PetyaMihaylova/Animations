@@ -1,0 +1,59 @@
+
+.text {
+   color: #000f00;
+   text-align: left;
+   vertical-align: text-top;
+   text-decoration-line: overline;
+   text-decoration-color: bisque;
+   text-decoration-style: straight;
+}
+
+h1 {
+   padding: 40px;
+   text-decoration-thickness: auto;
+   text-transform: lowercase;
+   text-indent: 100px;
+   letter-spacing: -1.5px;
+   line-height: 1.8;
+   word-spacing: 10px;
+   white-space: wrap;
+   text-shadow: 2 2 5px 00ff56, 0 0 3px 005564;
+   font-family: 'Donegal+One', Courier, monospace;
+   font-weight: 400;
+   font-style: italic;
+   font-variant:small-caps;
+   font-size: 40px;
+
+}
+
+p {
+    padding: 40px;
+    text-decoration-thickness: auto;
+    text-transform: lowercase;
+    text-indent: 100px;
+    letter-spacing: -1.5px;
+    line-height: 1.8;
+    word-spacing: 10px;
+    white-space: wrap;
+    text-shadow: 2 2 5px 00ff56, 0 0 3px 005564;
+    font-family: 'Donegal+One', Courier, monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-variant:small-caps;
+    font-size: 1em;
+}
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: greenyellow;
+    border-radius: 11%;
+}
+
+.button-container {
+    
+    display: inline-block;
+    padding: 10px;
+    border: solid 2px red;
+    margin: 5px;
+}

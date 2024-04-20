@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:200%;
+    height: 200vh;
+}
+
+.position {
+    position: absolute;
+    border: 3px solid red;
+    top: 120px;
+    width: 200px;
+    right: 0px;
+    height: 100;
+    border: 3px solid red;
+
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
