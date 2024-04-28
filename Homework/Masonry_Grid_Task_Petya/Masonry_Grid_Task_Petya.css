@@ -1,7 +1,21 @@
+body {
+    background: #008080;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(99, 245, 8)
+    
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr 1fr 16.66%;  
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    /* background-color: rgb(234, 238, 242); */
 }
 
 .text1 {
@@ -13,18 +27,19 @@
     z-index: 1;
     font-weight: bolder;
     text-shadow: 1;
-    text-align: center;
-    
+    text-align: center;    
+   
 }
 
 .text1:hover {
-    color: orange;
-    font-size: large;
-}
-
+    color: orange; 
+     size: larger;}
 
 div {
     position: relative;
+    /* border: 2px solid rgb(245, 237, 237); */
+    row-gap: 2px;
+    column-gap: 2px;
    
 }
 
@@ -87,6 +102,4 @@ filter: brightness(1) grayscale(0);
     grid-column: 3 / 5;
     grid-row: 4 / 5;
 }
-
-
 
