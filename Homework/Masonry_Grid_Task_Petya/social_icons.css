@@ -1,0 +1,115 @@
+header {
+    background: url(cool-background.png) no-repeat center;
+    height: 200px;
+   
+  }
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(166, 166, 234), rgb(238, 238, 159));
+    background-image: url(kitten.jpg);
+    background-size: 100%;
+    background-repeat: round;
+    font:
+      0.9em/1.2 Arial,
+      Helvetica,
+      sans-serif;
+      }
+
+p::first-letter {
+initial-letter: 2;
+} 
+
+.portrait-picture {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 1em;
+  }
+
+.portrait-picture:hover {
+    transform: scale(2);
+}
+
+.friend-portrait:hover {
+    transform: scale(2);
+}
+
+.friend-portrait {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+
+.social {
+    display: grid;
+    grid-template-rows: repeat(2, 18px);
+    grid-template-columns: repeat(4, 26px);
+    grid-gap: 12px;
+    
+    
+}
+
+ul, li {
+list-style: none;
+padding: 0;
+
+}
+
+ul {
+    margin: auto;
+}
+
+.facebook-icon {
+    background-image: url(facebook.svg);
+}
+
+.instagram-icon {
+    background-image: url(square-instagram.svg);
+}
+
+.github-icon {
+    background-image: url(github.svg);
+}
+
+.tiktok-icon {
+    background-image: url(tiktok.svg);
+}
+
+.linkedin-icon {
+    background-image: url(linkedin.svg);
+}
+
+.telegram-icon {
+    background-image: url(telegram.svg);
+}
+
+.youtube-icon {
+    background-image: url(youtube.svg);
+}
+
+.pinterest-icon {
+    background-image: url(pinterest.svg);
+}
+
+.snapchat-icon {
+    background-image: url(square-snapchat.svg);
+}
+
+.facebook-icon, .instagram-icon, .github-icon, .tiktok-icon, .linkedin-icon, .telegram-icon, .youtube-icon, .pinterest-icon, .snapchat-icon  {
+    display: block;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+.icon-btn {
+    
+    transition: all .2s ease;}
