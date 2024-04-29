@@ -1,20 +1,26 @@
-.navigation {
+.navigation, .item {
     /* display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center; */
-    display:block;
+    display: block;
     background-color: black;
-    color:#fff;
     border: 1px solid black;
     height: auto;
     width: auto;
+    color: #eee;
+    list-style: none;
 }
 
 .item {
     border:1px solid white;
-    margin:5% auto;
-    display:inline-block; /* add this class */
+    margin: 0;
+    padding: 0;
+    
+ }
+
+ a {
+    color:#eee;
  }
 
 /* --this was the navbar-- */
@@ -40,6 +46,10 @@ h1 {
 @media (min-width: 1200px) {
     h1 {
       font-size: 2rem;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
     }
   }
 
