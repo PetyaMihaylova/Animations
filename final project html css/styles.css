@@ -1,6 +1,9 @@
+/* ----Navbar Styling---- */
+
 .navigation, .item {
     display: block;
-    background-color: black;
+    background-color: rgb(100, 96, 96);
+    /* background-image: url(cool-background.png); */
     color: #eee;
     list-style: none;
 }
@@ -19,29 +22,15 @@ ul li {
     text-decoration: none;
  }
 
-/* --this was the navbar-- */
-
-
-html {
-    font:
-    1.2em Helvetica,
-    Arial,
-    sans-serif;
-}
-
-body {
-    margin: 20px;
-    padding: 0;
-    background-color: #eee;
-  }
-
-h1 {
+ h1 {
     font-size: 1.5em;
+    padding: 1em;
   }
-  
-@media (min-width: 60em) {
+
+ @media (min-width: 60em) {
     h1 {
       font-size: 2rem;
+      font-style: italic;
     }
     .navigation {
         display: flex;
@@ -58,7 +47,29 @@ h1 {
         border-top: none;
     }
     }
-  
+
+/* ----Navbar Styling---- */
+
+
+
+/* ----Main Styling---- */
+
+html {
+    font:
+    1.2em Helvetica,
+    Arial,
+    sans-serif;
+}
+
+main {
+    display: block;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+    background-color: #eee;
+  }
 
 .wrapper {
     max-width: 960px;
