@@ -37,22 +37,22 @@ h1 {
 }
 
 .button {
-    /*cursor: pointer;
+    cursor: pointer;
     background-color: rgb(48, 127, 36);
     border-radius: 11%;
     font-family: 'Donegal+One', Courier, monospace;
-    font-weight: normal;
+    font-weight: bold;
     font-size: medium;
     color: white;
     height:50px;
-    width:150px;*/
-    padding: 20px 30px;
+    width:150px;
+    /* padding: 20px 30px;
     margin-top: 5px;
     font-size: large;
     background-color: transparent;
     color: rgb(7, 7, 7);
     border: 2px solid transparent;
-    transition: .4s;
+    transition: .4s; */
         }
     
 .button:hover {

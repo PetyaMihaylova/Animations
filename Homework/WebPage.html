@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обединителен сайт</title>
+    <link rel="stylesheet" href="WebPage.css">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <nav class="menu">
+          <div class="item"><a href="#">Home</a></div>
+          <div class="item"><a href="#">About Us</a></div>
+          <div class="item"><a href="#">FAQ</a></div>
+          <div class="item"><a href="#to_reg">Форма за регистрация:</a></div>
+          <div class="item"><a href="#table_wealth">Таблица на милиардерите за 2024</a></div>
+          <div class="item"><a href="#masonry_gallery">Галерия тип "Masonry"</a></div>
+          <div class="item"><a href="#">Contact Us</a></div>
+        </nav>
+    </div>
+
+    <section class="reg-form">
+        <h2><a id="to_reg">Форма за регистрация:</a></h2>
+        
+        <h3>Регистрирай се тук за консултация с нашите специалисти:</h3>
+        <div class="form-flexbox">
+            <span class="form"><form>
+
+                <span><label for="username">Потребителско име*:</label>
+                <input type="text" id="username" name="username" required placeholder="username"
+                    title="Моля, въведете потребителско име" autocomplete="username"></span><br><br>
+
+                <span><label for="pass">Парола*:</label>
+                <input type="password" id="pass" name="password" minlength="8" required
+                    placeholder="Парола (минимум 8 знака)"
+                    title="Моля, въведете силна парола! Използвайте букви, цифри и специални символи."
+                    autocomplete="off"></span><br><br>
+
+                <span><label for="repeatpass">Повторете паролата*:</label>
+                <input type="password" id="repeatpass" name="password" minlength="8" required
+                    placeholder="Повторете паролата" title="Паролите трябва да съвпадат!" autocomplete="off"></span><br><br>
+
+                <span><label for="email">Email*:</label>
+                <input type="email" id="email" size="30" minlength="3" maxlength="100" required list="defaultEmails"
+                    placeholder="default@example.com" title="Моля, въведете валиден имейл адрес"
+                    autocomplete="email"></span>
+                <span><datalist id="defaultEmails">
+                    <option value="jbond007@mi6.defence.gov.uk"></option>
+                    <option value="jbourne@unknown.net"></option>
+                    <option value="nfury@shield.org"></option>
+                    <option value="tony@starkindustries.com"></option>
+                    <option value="hulk@grrrrrrrr.arg"></option>
+                    <option value="pbm080@aubg.bg"></option>
+                </datalist></span><br><br>
+
+                <span><label for="name">Име*:</label>
+                <input type="text" id="name" name="name" minlength="2" maxlength="10" required placeholder="Иван"
+                    title="Моля, въведете име" autocomplete="name"></span><br><br>
+
+                <span><label for="midname">Презиме:</label>
+                <input type="text" id="midname" name="midname" minlength="1" maxlength="10" placeholder="Иванов"
+                    title="Моля, въведете презиме"></span><br><br>
+
+                <span><label for="famname">Фамилия*:</label>
+                <input type="text" id="famname" name="famname" minlength="2" maxlength="10" required placeholder="Иванов"
+                    title="Моля, въведете фамилия"></span><br><br>
+
+                <span><input type="checkbox" id="subscribeNews" name="subscribeNb ews" value="newsletter">
+                <label for="subscribeNews">Искам да получавам новини, известия и специални предложения.</label></span><br><br>
+
+                <span><input type="checkbox" id="termsandcond" name="termsandcond" value="termsandcond" required>
+                <label for="termsandcond"><span class="asterisk">*</span>Съгласявам се с <a
+                        href="https://termly.io/our-terms-of-use/?_gl=1*kff5sg*_gcl_au*MTg3NDQxMDgyOC4xNzExMjIzMDI4"
+                        target="_blank"> Общите условия на ползване.</a></label></span><br><br>
+
+                <div><button class="button" title="Click here to register">Регистрация</button></div>
+
+            
+            </form></span>
+            </div>
+    </section>
+
+    <section class="billionaires"><h2><a id="table_wealth">Таблица на милиардерите за 2024:</a></h2>
+    <div class="table-billionaires">
+    
+    <table>
+        <caption>THE BILLIONAIRES LIST - 2024</caption>
+            <tr>
+                <th class="col-1">Rank</th>
+                <th class="col-2">Name</th>
+                <th class="col-3">Net Worth</th>
+                <th class="col-4">Age</th>
+                <th class="col-5">Source</th>
+                <th class="col-6">Country</th>
+            </tr>
+            <tr class="big-row">
+                <td>1</td>
+                <td>Bernard Arnault & family</td>
+                <td>$227.5 B</td>
+                <td>75</td>
+                <td>LVMH</td>
+                <td>France</td>
+            </tr>
+            <tr class="big-row">
+                <td>2</td>
+                <td>Jeff Bezos</td>
+                <td>$198.7 B</td>
+                <td>60</td>
+                <td>Amazon</td>
+                <td>United States</td>
+            </tr>
+            <tr class="big-row">
+                <td>3</td>
+                <td>Elon Musk</td>
+                <td>$196.5 B</td>
+                <td>52</td>
+                <td>Tesla, SpaceX</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerberg</td>
+                <td>$171.8 B</td>
+                <td>39</td>
+                <td>Facebook</td>
+                <td>United States</td>
+            <tr>
+                <td>5</td>
+                <td>Larry Ellison</td>
+                <td>$155.3 B</td>
+                <td>79</td>
+                <td>Oracle</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Warren Buffett</td>
+                <td>$137.4 B</td>
+                <td>93</td>
+                <td>Berkshire Hathaway</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Bill Gates</td>
+                <td>$131.4 B</td>
+                <td>68</td>
+                <td>Microsoft</td>
+                <td>United States</td>
+            </tr>       
+            <tr>
+                <td>8</td>
+                <td>Larry Page</td>
+                <td>$125.7 B</td>
+                <td>51</td>
+                <td>Google</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Steve Ballmer</td>
+                <td>$124.7 B</td>
+                <td>68</td>
+                <td>Microsoft</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Sergey Brin</td>
+                <td>$120.8 B</td>
+                <td>50</td>
+                <td>Google</td>
+                <td>United States</td>
+            </tr>   
+    </table>
+    </div></section>
+    <br><br>
+
+    <section class="gallery"><h2><a id="masonry_gallery">Галерия тип "Masonry":</a></h2>
+        
+        <div class="grid-container"> 
+                 
+                    <div class="div1"><img src="IMG_20240315_095644.jpg" alt="Baby picture" class="image1"><span class="text1">Baby Conall</span></div>     
+                    <div class="div2"><img src="IMG-a304626bd7710ddc19fca666256437fb-V.jpg" alt="Biue-eyed Conall" class="image2"><span class="text1">Conall with 5 months</span></div>
+                    <div class="div3"><img src="IMG_20211001_135145.jpg" alt="Dady and baby" class="image3"><span class="text1">Newborn Michael</span></div>       
+                    <div class="div4"><img src="IMG_8189.jpeg" alt="Our first baby" class="image4"><span class="text1">First trip to grandma and granddad in Dublin</span></div>            
+                    <div class="div5"><img src="IMG_20210519_134519.jpg" alt="My orchids" class="image5"><span class="text1">My orchids with Latin names</span></div>           
+                    <div class="div6"><img src="IMG_20211130_124208.jpg"alt="Bathed baby" class="image6"><span class="text1">Michael after bath</span></div>            
+                    <div class="div7"><img src="IMG_20220130_150516.jpg" alt="Little sunshine" class="image7"><span class="text1">Michael with 7 months</span></div>            
+                    <div class="div8"><img src="IMG_20240401_125140.jpg" alt="Look at me laugh" class="image8"><span class="text1">Conall is a lovely boy</span></div>             
+                    <div class="div9"><img src="IMG_20210523_140530.jpg" alt="Ozone park view" class="image9"><span class="text1">A view from Ozone restaurant</span></div>        
+                  
+        </div>
+    </section>
+</body>    
