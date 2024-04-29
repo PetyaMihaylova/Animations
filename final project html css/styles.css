@@ -1,26 +1,22 @@
 .navigation, .item {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center; */
     display: block;
     background-color: black;
-    border: 1px solid black;
-    height: auto;
-    width: auto;
     color: #eee;
     list-style: none;
 }
 
-.item {
-    border:1px solid white;
+ul li {
     margin: 0;
     padding: 0;
     
  }
 
- a {
+ .navigation a {
     color:#eee;
+    border-top: 1px solid rgb(244, 241, 241);
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
  }
 
 /* --this was the navbar-- */
@@ -43,15 +39,26 @@ h1 {
     font-size: 1.5em;
   }
   
-@media (min-width: 1200px) {
+@media (min-width: 60em) {
     h1 {
       font-size: 2rem;
     }
     .navigation {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        border: none;}
+
+    .navigation ul {
+        display: flex;
+        }
+
+    .navigation a {
+        border-top: none;
     }
-  }
+    }
+  
 
 .wrapper {
     max-width: 960px;
