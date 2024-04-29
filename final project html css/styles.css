@@ -32,21 +32,38 @@ ul li {
       font-size: 2rem;
       font-style: italic;
     }
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-flow: row wrap;
-        border: none;}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    border: none;}
 
-    .navigation ul {
-        display: flex;
-        }
+.navigation ul {
+    display: flex;
+    }
 
-    .navigation a {
-        border-top: none;
+.navigation a {
+    border-top: none;
+}
+  
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
+  
+.Profile_Picture {
+    flex: 1;
+    margin-right: 5%;
+    
     }
+
+.about_me {
+    flex: 2;
+    }
+}
+  
 
 /* ----Navbar Styling---- */
 
@@ -81,23 +98,6 @@ body {
     background-color: #fff;
   }
 
-@media screen and (min-width: 600px) {
-    .wrapper {
-      display: flex;
-    }
-
-.Profile_Picture {
-    flex: 1;
-    margin-right: 5%;
-      
-    }
-
-.about_me {
-    flex: 2;
-    }
-  }
-
-
 /* .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,13 +105,14 @@ body {
     margin: 2em;
     } */
 
-    .Petya_Mihaylova_Profile_Picture {
-       background-image: url(Petya_Mihaylova_Profile_Picture.jpg);
-       width: 15rem ;
-       height: 20rem;
-       border-radius: 20%;
-       max-width: 100%;
-      
+.Petya_Mihaylova_Profile_Picture {
+   
+    background-image: url(Petya_Mihaylova_Profile_Picture.jpg);
+    width: 15rem ;
+    height: 20rem;
+    border-radius: 20%;
+    max-width: 100%;
+    
     }
 
 .about_me {
