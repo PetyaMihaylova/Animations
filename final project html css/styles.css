@@ -3,7 +3,6 @@
 .navigation, .item {
     display: block;
     background-color: rgb(100, 96, 96);
-    /* background-image: url(cool-background.png); */
     color: #eee;
     list-style: none;
 }
@@ -36,7 +35,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row wrap;
     border: none;}
 
 .navigation ul {
@@ -62,7 +60,18 @@
 .about_me {
     flex: 2;
     }
+
+.container, .container ul, .container ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+
 }
+
+
+ }
+
   
 
 /* ----Navbar Styling---- */
@@ -115,35 +124,85 @@ body {
 
 /* ----Page 2 Featured Projects Styles---- */
 
-.container, .container li {
+.container {
+    display: block;
+    max-width: 1300px;
+    margin: 0;
+}
+
+.container li {
+    margin: 0;
+    padding: 0;
     display: block;
     color: #050505;
     list-style: none;
-}
-
-.container ul li {
-    margin: 0;
-    padding-bottom: 0;
     
  }
 
 .form_picture {
     float: left;
-    width:10em;
-    height:10em;
-    padding-right: 30px;
+    width: 10em;
+    height: 10em;
+    padding-right: 0.3em;
+    
 }
 
 .masonry_gallery_picture {
     float: left;
-    width:10em;
-    height:10em;
-    padding-right: 30px;
+    width: 10em;
+    height: 10em;
+    padding-right: 0.3em;
+    
 }
 
 .table_picture {
     float: left;
-    width:10em;
-    height:10em;
-    padding-right: 30px;
+    width: 10em;
+    height: 10em;
+    padding-right: 0.3em;
+    
 }
+
+.text {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    display: block;
+    min-width: 10em;
+
+}
+
+/* @media (min-width: 60em) {
+    h1 {
+      font-size: 2rem;
+      font-style: italic;
+    }
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;}
+
+.navigation ul {
+    display: flex;
+    }
+
+.navigation a {
+    border-top: none;
+}
+  
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+.Profile_Picture {
+    flex: 1;
+    margin-right: 5%;
+    
+    }
+
+.about_me {
+    flex: 2;
+    }
+} */

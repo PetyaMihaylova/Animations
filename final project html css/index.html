@@ -47,24 +47,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <ul>
+    
     <h2>Featured Projects</h2>
-    <ul class="container">
+    <div class="container">
+        <ul>
         <li class="form">
             <a href="https://github.com/PetyaMihaylova/Form" target="_blank">Registration Form
-                <figure><img src="form_picture.png" alt="Picture of a registration form" class="form_picture"/></figure></a><dd>This sample registration form is my very first project in HTML/CSS. There is simple input validation (e.g., in the case of email) and input suggestions to help the user orient themselves as to the type of data to input. The registration button opens to a new page with the help of the "_blank"-parameter, however, it is not made active yet. This is a work in progress.
-        </li><br><br><br><br><br><br><br>
+                <figure><img src="form_picture.png" alt="Picture of a registration form" class="form_picture"/></figure></a> 
+                <p class="text">This sample registration form is my very first project in HTML/CSS. There is simple input validation (e.g., in the case of email) and input suggestions to help the user orient themselves as to the type of data to input. The registration button opens to a new page with the help of the "_blank"-parameter, however, it is not made active yet. This is a work in progress.</p>
+        </li>
+        
         
         <li class="table">
             <a href= "https://github.com/PetyaMihaylova/Coursework/blob/main/Hwork3.html" target="_blank">Table
-            <figure><img src="table_picture.png" alt="Picture of a table" class="table_picture"/></figure></a> The project showcases the functuionality of an HTML/CSS table, representing the top 10 billionaires of 2024 until now. The first 3 entries are bolded and each line lights up in a different color on hover.  
-        </li><br><br><br><br><br><br><br>
+            <figure><img src="table_picture.png" alt="Picture of a table" class="table_picture"/></figure></a>   
+            <p class="text">The project showcases the functuionality of an HTML/CSS table, representing the top 10 billionaires of 2024 until now. The first 3 entries are bolded and each line lights up in a different color on hover.</p>
+        </li>
 
         <li class="masonry_gallery">
             <a href="https://github.com/PetyaMihaylova/Masonry_Grid_Task_Petya/blob/master/Masonry_Grid_Task_Petya.html" target="_blank">Masonry Gallery
-            <figure><img src="masonry_gallery_picture.png" alt="Picture of a masonry gallery" class="masonry_gallery_picture"/></figure></a>This masonry gallery is my favorite project thus far, because of the vivacity of images and colors. It represents a collage of images within a grid box. The text on top has been resolved with the help of z-index. Images have been selected based on their composition qualities, as well as their orientation (landscape vs. portrait.) Improvements to follow.
+            <figure><img src="masonry_gallery_picture.png" alt="Picture of a masonry gallery" class="masonry_gallery_picture"/></figure></a> 
+            <p class="text">This masonry gallery is my favorite project thus far, because of the vivacity of images and colors. It represents a collage of images within a grid box. 
+                The text on top has been resolved with the help of z-index. Images have been selected based on their composition qualities, as well as their orientation (landscape vs. portrait.) Improvements to follow.</p>
         </li>
     </ul>
+    </div>
         </body>
 </html>
 
@@ -77,6 +84,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h2>Contact Me</h3>
+    <div class="form-flexbox">
+        <span class="form"><form>
+
+            <span><label for="name">Име*:</label>
+                <input type="text" id="name" name="name" minlength="2" maxlength="10" required placeholder="Иван"
+                    title="Моля, въведете име" autocomplete="name"></span><br><br>
+    
+                <span><label for="midname">Презиме:</label>
+                <input type="text" id="midname" name="midname" minlength="1" maxlength="10" placeholder="Иванов"
+                    title="Моля, въведете презиме"></span><br><br>
+    
+                <span><label for="famname">Фамилия*:</label>
+                <input type="text" id="famname" name="famname" minlength="2" maxlength="10" required placeholder="Иванов"
+                    title="Моля, въведете фамилия"></span><br><br>
+         
+            <span><label for="email">Email*:</label>
+            <input type="email" id="email" size="30" minlength="3" maxlength="100" required list="defaultEmails"
+                placeholder="default@example.com" title="Моля, въведете валиден имейл адрес"
+                autocomplete="email"></span>
+            <span><datalist id="defaultEmails">
+                <option value="jbond007@mi6.defence.gov.uk"></option>
+                <option value="jbourne@unknown.net"></option>
+                <option value="nfury@shield.org"></option>
+                <option value="tony@starkindustries.com"></option>
+                <option value="hulk@grrrrrrrr.arg"></option>
+                <option value="pbm080@aubg.bg"></option>
+            </datalist></span><br><br>
+        <div><button class="button" title="Click here to register">Send E-Mail</button></div>
+
+        <ul class="social">
+            <li class="social-icon">
+                <a href="https://facebook.com" target="_blank" class="icon-btn facebook-icon">
+                <span class="facebook-icon"></span></a>
+            </li>
+        
+            <li class="social-icon">                        
+                <a href="https://www.instagram.com" target="_blank" class="icon-btn">
+                <span class="instagram-icon"></span></a>
+            </li>
+        
+            <li class="social-icon">         
+                <a href="https://github.com" target="_blank" class="icon-btn"><span class="github-icon"></span></a>
+            </li>
+        
+            <li class="social-icon">                        
+                <a href="https://www.tiktok.com" target="_blank" class="icon-btn">
+            <span class="tiktok-icon"></span></a>
+            </li>
+        
+            <a href="https://linkedin.com" target="_blank" class="icon-btn">
+            <span class="linkedin-icon"></span></a>
+        
+            <a href="https://youtube.com" target="_blank" class="icon-btn">
+            <span class="youtube-icon"></span></a>
+        
+            <a href="https://snapchat.com" target="_blank" class="icon-btn">
+            <span class="snapchat-icon"></span></a>
+            
+            <a href="https://pinterest.com" target="_blank" class="icon-btn">
+            <span class="pinterest-icon"></span></a>
+        </ul>
     
 </body>
 </html>
