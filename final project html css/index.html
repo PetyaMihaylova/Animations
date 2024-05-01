@@ -85,24 +85,20 @@
 </head>
 <body>
     <h2>Contact Me</h3>
-    <div class="form-flexbox">
-        <span class="form"><form>
+    <div class="flexbox">
+        <span class="email-box"><form>
 
-            <span><label for="name">Име*:</label>
-                <input type="text" id="name" name="name" minlength="2" maxlength="10" required placeholder="Иван"
-                    title="Моля, въведете име" autocomplete="name"></span><br><br>
+            <span><label for="name">Name*:</label>
+                <input type="text" id="name" name="name" minlength="2" maxlength="10" required placeholder="John"
+                    title="Please, enter your name" autocomplete="name"></span><br><br>
     
-                <span><label for="midname">Презиме:</label>
-                <input type="text" id="midname" name="midname" minlength="1" maxlength="10" placeholder="Иванов"
-                    title="Моля, въведете презиме"></span><br><br>
-    
-                <span><label for="famname">Фамилия*:</label>
-                <input type="text" id="famname" name="famname" minlength="2" maxlength="10" required placeholder="Иванов"
-                    title="Моля, въведете фамилия"></span><br><br>
+            <span><label for="famname">Surname*:</label>
+                <input type="text" id="famname" name="famname" minlength="2" maxlength="10" required placeholder="Smith"
+                    title="Please, enter your last name"></span><br><br>
          
-            <span><label for="email">Email*:</label>
+            <span><label for="email">E-Mail*:</label>
             <input type="email" id="email" size="30" minlength="3" maxlength="100" required list="defaultEmails"
-                placeholder="default@example.com" title="Моля, въведете валиден имейл адрес"
+                placeholder="default@example.com" title="Please, enter a valid e-mail address"
                 autocomplete="email"></span>
             <span><datalist id="defaultEmails">
                 <option value="jbond007@mi6.defence.gov.uk"></option>
@@ -112,9 +108,19 @@
                 <option value="hulk@grrrrrrrr.arg"></option>
                 <option value="pbm080@aubg.bg"></option>
             </datalist></span><br><br>
-        <div><button class="button" title="Click here to register">Send E-Mail</button></div>
 
-        <ul class="social">
+            <div class="messageBox">
+                <label for="message">Type your message here:</label><br />
+                <textarea
+                  id="message"
+                  cols="80"
+                  rows="8"
+                  required
+                  placeholder="Hi Petya, your profile page looks good and we would like to work with you. How about..."></textarea>
+              </div>
+            <input type="submit" title="Click here to send e-mail" class="submit"/>
+
+        <!-- <ul class="social">
             <li class="social-icon">
                 <a href="https://facebook.com" target="_blank" class="icon-btn facebook-icon">
                 <span class="facebook-icon"></span></a>
@@ -148,4 +154,4 @@
         </ul>
     
 </body>
-</html>
+</html> -->

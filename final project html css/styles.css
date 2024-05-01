@@ -142,7 +142,7 @@ body {
 .form_picture {
     float: left;
     width: 10em;
-    height: 10em;
+    height: 15em;
     padding-right: 0.3em;
     
 }
@@ -150,7 +150,7 @@ body {
 .masonry_gallery_picture {
     float: left;
     width: 10em;
-    height: 10em;
+    height: 15em;
     padding-right: 0.3em;
     
 }
@@ -158,51 +158,116 @@ body {
 .table_picture {
     float: left;
     width: 10em;
-    height: 10em;
+    height: 15em;
     padding-right: 0.3em;
     
 }
 
 .text {
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 1em;
     display: block;
     min-width: 10em;
 
 }
 
-/* @media (min-width: 60em) {
-    h1 {
-      font-size: 2rem;
-      font-style: italic;
-    }
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: none;}
+/* ----Contact Form View---- */
 
-.navigation ul {
-    display: flex;
-    }
 
-.navigation a {
-    border-top: none;
-}
-  
-.wrapper {
+.flexbox {
     display: flex;
-    align-items: center;
+    flex-flow: column nowrap;
     justify-content: center;
-    }
-  
-.Profile_Picture {
-    flex: 1;
-    margin-right: 5%;
+    align-items: center;
+
+}
+
+.asterisk {
+    color: red;
+}
+
+.submit {
+    padding-top: 3em;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 1em; 
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(7, 7, 7);
+    border: 2px solid black;
+    color: rgb(7, 7, 7);
+    transition: .4s;
+        }
     
+.submit:hover {
+    background-color: transparent;
+    box-shadow: 0 0 10px #424242;
+    border: 2px solid #0c0c0c;
+    cursor: pointer;
     }
 
-.about_me {
-    flex: 2;
-    }
-} */
+/* ----Social Icons Styling---- */
+
+.social {
+    display: grid;
+    grid-template-rows: 1, 18px;
+    grid-template-columns: repeat(4, 26px);
+    grid-gap: 12px;
+    
+}
+
+.social ul, li {
+list-style: none;
+padding: 0;
+
+}
+
+.social ul {
+    margin: auto;
+}
+
+.facebook-icon {
+    background-image: url(facebook.svg);
+}
+
+.instagram-icon {
+    background-image: url(square-instagram.svg);
+}
+
+.github-icon {
+    background-image: url(github.svg);
+}
+
+.tiktok-icon {
+    background-image: url(tiktok.svg);
+}
+
+.linkedin-icon {
+    background-image: url(linkedin.svg);
+}
+
+.telegram-icon {
+    background-image: url(telegram.svg);
+}
+
+.youtube-icon {
+    background-image: url(youtube.svg);
+}
+
+.pinterest-icon {
+    background-image: url(pinterest.svg);
+}
+
+.snapchat-icon {
+    background-image: url(square-snapchat.svg);
+}
+
+.facebook-icon, .instagram-icon, .github-icon, .tiktok-icon, .linkedin-icon, .telegram-icon, .youtube-icon, .pinterest-icon, .snapchat-icon  {
+    display: block;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+.icon-btn {
+    
+    transition: all .2s ease;}
